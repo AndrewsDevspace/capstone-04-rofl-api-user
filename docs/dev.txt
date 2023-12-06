@@ -1,4 +1,20 @@
-Capstone Project 4 - Using a Public API with a Web-App's Server
+Capstone Project 4 - Using a Public API in a Server Web-App
 
 Find a fun concept and an API that could go well with it.
-  ...
+  (Joke Site?) "ROFL.com" /with smileys/
+    "/": Joke of the moment
+      (get a random SAFE joke)
+    "/byword": Last word in!
+      (get a joke with the entered word)
+index.js Entry Point:
+  imports:
+    express - install - import,
+    ejs - install - implicit,
+    body-parser - url-encoded present with express,
+    axios - install - import.
+jokes-form.ejs:
+  label "Get a joke:"
+  text input "by word search..." (must-fill)
+  submit button "Go!"
+Create a GitHub repo with chosen project name:
+  capstone-04-..?

@@ -1,0 +1,126 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 20%;
+  color: orange;
+  background-color: rgb(64, 0, 96);
+}
+
+#all-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100lvh;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 0.5em 0;
+  background-color: crimson;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  margin: 0;
+  margin-top: 2em;
+  padding: 0.5em 0;
+  background-color: crimson;
+  text-align: center;
+}
+
+
+
+#joke-div {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  /* padding-left: 5%; */
+}
+
+#bubble {
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  font-size: 1.5em;
+  margin: 2em 20% 4em 10%;
+}
+
+#bubble > p {
+  position: relative;
+  margin: 0;
+  padding: 2.5em 2em;
+  text-align: center;
+  border: 2px dashed crimson;
+  border-radius: 50%;
+  background-color: rgba(220, 20, 60, 0.33);
+  z-index: 4;
+}
+
+#bubble > div {
+  display: inline-block;
+  position: absolute;
+  border: 2px dashed crimson;
+  border-radius: 50%;
+  background-color: rgba(220, 20, 60, 0.33);
+  transform: translate(-50%, -50%);
+}
+
+#bubble > #d1 {
+  top: -55%;
+  left: 8%;
+  width: 10%;
+  height: 10%;
+  z-index: 1;
+}
+
+#bubble > #d2 {
+  top: -35%;
+  left: 5%;
+  width: 20%;
+  height: 20%;
+  z-index: 2;
+}
+
+#bubble > #d3 {
+  top: -5%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  z-index: 3;
+}
+
+
+
+form {
+  display: flex;
+  align-items: baseline;
+  column-gap: 1em;
+  border: 2px dashed crimson;
+  background-color: rgba(220, 20, 60, 0.33);
+  padding: 1em 2em;
+}
+
+form > * {
+  box-sizing: border-box;
+  font-size: 1.5em;
+}
+
+form > input#word {
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 16em;
+  text-align: center;
+  padding: 0.25em 0;
+}
+
+form > input[type="submit"] {
+  border-radius: 50%;
+  padding: 0.25em 0.5em;
+}
