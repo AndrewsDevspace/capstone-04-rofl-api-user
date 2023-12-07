@@ -23,6 +23,11 @@ h2 {
   margin-bottom: 0;
   position: relative;
   z-index: 1;
+  text-shadow: 0.1em 0.1em black;
+}
+
+#last-word {
+  color: white;
 }
 
 footer {
@@ -73,7 +78,7 @@ footer {
 }
 
 #bubble > #d1 {
-  top: -55%;
+  top: -40%;
   left: 8%;
   width: 10%;
   height: 10%;
@@ -81,7 +86,7 @@ footer {
 }
 
 #bubble > #d2 {
-  top: -35%;
+  top: -25%;
   left: 5%;
   width: 20%;
   height: 20%;
@@ -89,8 +94,8 @@ footer {
 }
 
 #bubble > #d3 {
-  top: -5%;
-  left: 10%;
+  top: 0%;
+  left: 8%;
   width: 30%;
   height: 30%;
   z-index: 3;

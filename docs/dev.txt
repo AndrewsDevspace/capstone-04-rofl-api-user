@@ -18,5 +18,6 @@ jokes-form.ejs:
   label "Get a joke:"
   text input "by word search..." (must-fill)
   submit button "Go!"
+Need some more error handling in server & view files.
 Create a GitHub repo with chosen project name:
   capstone-04-..?
