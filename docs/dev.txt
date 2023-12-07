@@ -20,4 +20,4 @@ jokes-form.ejs:
   submit button "Go!"
 Need some more error handling in server & view files.
 Create a GitHub repo with chosen project name:
-  capstone-04-..?
+  'capstone-04-rofl-api-user'
