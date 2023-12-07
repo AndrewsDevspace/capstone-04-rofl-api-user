@@ -4,8 +4,10 @@ Find a fun concept and an API that could go well with it.
   (Joke Site?) "ROFL.com" /with smileys/
     "/": Joke of the moment
       (get a random SAFE joke)
-    "/byword": Last word in!
+      GET "https://v2.jokeapi.dev/joke/Any" + "?lang=en&safe-mode"
+    "/byword": Last word in! ({word})
       (get a joke with the entered word)
+      GET "https://v2.jokeapi.dev/joke/Any" + "?lang=en&contains={word}"
 index.js Entry Point:
   imports:
     express - install - import,
