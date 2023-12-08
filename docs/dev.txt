@@ -21,3 +21,6 @@ jokes-form.ejs:
 Need some more error handling in server & view files.
 Create a GitHub repo with chosen project name:
   'capstone-04-rofl-api-user'
+User input:
+  Filter out ':', '/', '.', etc.
+  Convert input to standard URI format.
